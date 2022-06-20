@@ -2,11 +2,149 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portifólio</title>
+    <link rel="stylesheet" href="style-folio.css">
 </head>
 <body>
-    
+    <div class="toggle" onclick="toggleMenu()">
+    </div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="imagens/my_photo.jpg" alt="My photo">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">My_Portfolio</h5>
+            <div>
+                <h4><span>Hello,</span> I'm</h4>
+                <h2>Evancely Souza!</h2>
+                <h4>I'm a Front end Web developer.</h4>
+                <p>Programadora Front-end(HTML, CSS e JavaScript), programando em busca de mais conhecimento. Em transição de carreira desde setembro de 2021.</p>
+                <a href="#" class="btn">About me</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/facebook.png" alt="visite minha pagina facebook"></a></li>
+                <li><a href="https://www.instagram.com/talitaevancely/" target="_blank" rel="noreferrer noopener"><img src="imagens/instagram (1).png" alt="visite minha pagina instagram"></a></li>
+                <li><a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/github.png" alt="imagem logo github"></a></li>
+            </ul>
+        </div>
+   </section>
+   
+<section class="about" id="about">
+    <div class="title white">
+        <h2>About Us</h2>  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+     </div>
+     <div class="content">
+        <div class="textBx">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maiores facilis veritatis in. Ab est esse eum fugiat voluptas, nisi, ratione soluta quidem iste, nemo ipsam sapiente tempora quam ipsum.lo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maiores facilis veritatis in. Ab est esse eum fugiat voluptas, nisi, ratione soluta quidem iste, nemo ipsam sapiente tempora quam ipsum.lo</p> 
+        </div>
+        <div class="imgBx">
+            <img src="imagens/my-photo2.jpg" alt="minha foto">
+        </div>
+
+     </div>
+</section>
+
+<section class="skill" id="skill">
+    <div class="title">
+        <h2>Skill</h2>  
+        <ul>
+            <li><img src="imagens/html (2).png" alt=""></li>
+            <li><img src="imagens/css.png" alt=""></li>
+            <li><img src="imagens/js-format.png" alt=""></li>
+            <li><img src="imagens/react.png" alt=""></li>
+            <li><img src="imagens/git.png" alt=""></li>
+            <li><img src="imagens/github (1).png" alt=""></li>
+        </ul>
+        
+     </div>
+</section>
+
+<section class="work" id="work">
+ <div class="title">
+    <h2>Recent Projets</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque minima explicabo corporis delectus ex minus ipsum. </p>
+ </div>
+<!--Ajustar as imagens dos projetos no fotoshop-->
+ <div class="content">
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/horadodia.png" alt="Projeto Hora do dia" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto Hora do Dia</h3>
+        </div>
+    </div>
+
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/podevotar.png" alt="Projeto Pode Votar?" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto Pode Votar?</h3>
+        </div>
+    </div>
+
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/verificaIdade.png" alt="projeto Verifiva Idade" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto Verifica Idade</h3>
+        </div>
+    </div>
+
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/pokedex.png" alt="Projeto pokedex" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto Pokedex</h3>
+        </div>
+    </div>
+
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/myDevflix.png" alt="Projeto My Devflix" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto My Devflix</h3>
+        </div>
+    </div>
+
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/NFT.png" alt="Projeto NFT" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto NFT</h3>
+        </div>
+    </div>
+
+    <div class="workBx">
+        <div class="imgBx">
+            <a href="#" target="_blank" rel="noreferrer noopener"><img src="imagens/myinsta.png" alt="Projeto My Instagram" ></a>
+        </div>
+        <div class="textBx">
+            <h3>Projeto My Instagram</h3>
+        </div>
+    </div>
+
+   </div>
+</section>
+
+    <div class="sidebar">
+     <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#skill" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+     </ul> 
+    </div>
+
+    <script src="folio.js"></script>
 </body>
 </html>
