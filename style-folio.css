@@ -245,15 +245,6 @@ li img{
     transform: scale(1.2);
  }
 
-.work{
-    background-color: #dda0dd;
-}
-.content{
-    background-color: aqua;
-}
-.workBx{
-    background-color: blue;
-}
 .work .content{
     display: flex;
     justify-content: center;
@@ -326,26 +317,7 @@ li img{
     padding-left: 1rem;
   }
   
-  /* h1,
-  h2 {
-    font-size: 3rem;
-    color: #fff;
-    margin-bottom: 2rem;
-    text-align: center;
-    line-height: 1.2;
-  } */
-  
-  /* h1::before {
-    content: "📧";
-    display: block;
-  } */
-  
-  /* h2::before {
-    content: "🐅";
-    display: block;
-  } */
-  
-  .form {
+   .form {
     width: 100%;
     max-width: 32rem;
     font-size: 1.125rem;
