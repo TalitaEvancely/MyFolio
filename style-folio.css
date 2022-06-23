@@ -275,8 +275,8 @@ li img{
     align-items: center;
 }
 .work .content .workBx .imgBx img{
-    height: 300px;
-    width: 300px;
+    /* height: 300px;
+    width: 300px; */
     margin: 30px;
     transition: 0.5s;
     text-align: center;
