@@ -88,7 +88,7 @@ height: 100%;
 }
 
 .banner .contentBx h4 span{
-    color: #ad75ad;
+    color:#8A2BE2;
     font-size:1.5em;
     font-weight: 700;
 }
@@ -103,7 +103,7 @@ p{
     font-weight: 300;
 }
 .btn{
-    background: #ad75ad;
+    background: linear-gradient(to right,violet, indigo);
     color: #fff;
     padding: 10px 30px;
     display: inline-block;
@@ -146,7 +146,7 @@ p{
 }
 
 .sidebar ul li a:hover{
-    color: #ad75ad;
+    color: #8A2BE2;
 }
 
 .sci{
@@ -175,7 +175,7 @@ p{
 }
 .title h2{
     position: relative;
-    color: #ad75ad;
+    color: #8A2BE2;
     font-size: 1.8em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -357,14 +357,14 @@ li img{
   form textarea:hover,
   form textarea:focus {
     outline: none;
-    border-color: #ad75ad;
+    border-color: #8A2BE2;
     box-shadow: 0 0 0 3px #dda0dd;
   }
   
   form button {
     display: block;
     padding: 1rem;
-    background: #ad75ad;
+    background: linear-gradient(to right,violet, indigo);
     color: #fff;
     font: inherit;
     text-transform: uppercase;
@@ -377,7 +377,7 @@ li img{
   .form button:hover,
   .form button:focus {
     outline: none;
-    background: #ad75ad;
+    background: linear-gradient(to right,violet, indigo);
   }
   .copyrigth{
     color: #fff;
