@@ -291,11 +291,12 @@ li img{
     opacity: 1;
 } 
 
-.work .content .workBx .textBx h3{
+.work .content .workBx .textBx a{
     color: #fff;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 1px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .contact {
     background: #0d0e0f;
