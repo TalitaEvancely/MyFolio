@@ -192,7 +192,7 @@ p{
     bottom: -10px;
     width: 60px;
     height: 4px;
-    background: #000;
+    background: #8A2BE2;
 }
 .title.white h2, 
 .title.white p{
@@ -282,7 +282,7 @@ li img{
     object-fit: cover;
 } 
 .work .content .workBx .textBx{
-    background: #000; 
+    background: #8A2BE2; 
     opacity: 0;
     transition: 0.5s;
 }
