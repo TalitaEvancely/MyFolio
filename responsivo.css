@@ -67,6 +67,7 @@ h2 p form {
         max-width: 100%; 
         width: 100%;
         margin: 50px 0;
-
     }
+    .work .content .workBx .imgBx img{
+       height: 150px; }
 }
